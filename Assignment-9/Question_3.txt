@@ -1,0 +1,28 @@
+/*
+What is a lexical scope and how is it related to closure?
+
+Explanation :
+
+The javascript Supports Lexical Scoping(static scoping) where as the lexical
+Scoping care about where the function was created . When ever the variable was 
+apperead it will check firstly in the local scope of an function whether the variable
+is declared or not  and it will goes to global scope and it will check there as well
+and if it finds it , it will access it otherwise throws error .. This how lexical 
+scoping works ... In simple words lexical Scope is the region where the variable is
+living ...
+
+As we seen how the lexical Scope works , when we talk about closures , let's think
+when the closure was created, when we are using  a function inside a function and
+we are using the inner function inside an outer function then no closure was created 
+even it uses the outer function variable because we are executing that function
+with in the scope region itself so the lexical scope works but when we return that 
+function we are executing that function outside the scope... Where the Lexical Scoping
+working will be different in this case because the copy of that function will be returned ... but the lexical scope 
+will be changed their ... so here while copying the function the javascript engine captures the 
+things that are used outside the local scope of an function and here the lexical scoping
+will not go for the above scope but it will goes to the closure object and it will check there
+for the variables that are used inside that returned function ...
+
+This is how the Lexical Scope is related to the closure......
+
+*/

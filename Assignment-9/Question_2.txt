@@ -1,0 +1,10 @@
+/**
+ * What is the difference between a closure and a scope ?
+ */
+
+/**
+ * The Scope defines the region of the variable where it can be allowed to use it ...
+ * Where as the Closure is an special kind of object that combines two things ,
+ * a function and the environment which it was created and the environment consist
+ * of any local variables that were in the scope at the time the closure was created
+ */

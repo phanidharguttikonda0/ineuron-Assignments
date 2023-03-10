@@ -1,0 +1,25 @@
+/*
+
+Are Higher Order functions and Call back functions the same ? If not,
+briefly explain about both functions.
+
+HigherOrder Functions are the Functions Which takes another function as argument and or 
+returns the function to it's caller..
+Where as the Call back Functions are the Functions which are passed function as an argument..
+
+ function a(b){
+    b() ;
+ }
+
+ a(function(){
+    console.log('hii) ;
+ }) ;
+
+ The function we are passing to the a is an call back function ... if a takes an function as
+ the argument then a is said to be Higher Order Function...
+
+We can say No they both  are not same , because a call back function is an normal function
+just like other functions but the higher order functions which takes the another function 
+as an argument ... But sometimes an call back function can be an Higher Order Function because
+it may also takes the function as an argument....
+*/

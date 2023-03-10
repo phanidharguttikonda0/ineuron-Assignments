@@ -1,0 +1,13 @@
+/*
+
+Is filter a Higher Order function in Javascript ? If yes, why ?
+
+Yes ofCourse the filter is an higher order function because it was taking
+an function as an another argument...
+Example :
+array.filter(value =>{
+if(value%2===0){
+    console.log(value) ;
+}
+}) ;
+*/

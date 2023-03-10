@@ -1,0 +1,22 @@
+/**
+ * Carefully observe this example.
+a) Is the InnerFunction() a closure?
+b) What is output of this program
+
+function OuterFunction()
+{   
+    var outerVariable = 100;
+    function InnerFunction() {
+        alert(outerVariable);
+    }
+    return InnerFunction;
+}
+var innerFunc = OuterFunction();
+innerFunc();
+ */
+
+/** Answer's :
+ * a) Yes that inner function is an Closure where it takes the snap of the Outer function variable...
+ * b) the output will be an error because the alert is not an part of the javascript
+ * it is part of the browser . the will handle it no the node ...
+ */
